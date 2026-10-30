@@ -5,10 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
+<header>
+    <h1>Smart Cart</h1>
+</header>
+
 <body>
-    <h1>Bem-vindo ao Smart Cart</h1>
-    <p>Este é um exemplo de página HTML para o Smart Cart.</p>
+    <div class="container" id="home">
+        
+        <div class="container" id="home-texto">  
+            <h1>Bem-vindo ao Smart Cart</h1>
+        </div>    
+
+        <div class="container" id="home-image">
+            <img src="https://via.placeholder.com/720x480" alt="Imagem de exemplo">
+        </div>
+    
+    </div>
+
+    <div class="container" id="sobre">
+        <div class="container" id="sobre-image">
+            <img src="https://via.placeholder.com/720x480" alt="Imagem de exemplo">
+        </div>
+        
+        <div class="container" id="sobre-texto">
+            <h2>Sobre o Smart Cart</h2>
+            <p>O Smart Cart é um carrinho de compras inteligente que ajuda você a gerenciar suas compras de forma eficiente e prática.</p>
+        </div>
+    </div>
+
+    <div class="container" id="parte-mecanica">
+        <div class="container" id="mecanica-texto">
+            <h2>Parte Mecânica</h2>
+            <p>A parte mecânica do Smart Cart foi modelada no FreeCAD e busca permitir fácil acesso aos componentes, além de permitir que a fonte seja carregada sem desmontá-lo, e permitir uma angulação do sensor para o interior do carrinho.</p>
+        </div>
+
+        <div class="container" id="mecanica-image">
+            <video src="assets/video3d.mp4" alt="Imagem de exemplo" autoplay muted loop></video>   
+        </div>
+    </div>
+
+    <div class="container" id="parte-eletronica">
+        <div class="container" id="eletronica-image">
+            <img src="assets/esp.jpg" alt="Imagem de exemplo">
+        </div>
+
+        <div class="container" id="eletronica-texto">
+            <h2>Parte Eletrônica</h2>
+            <p>A parte eletrônica do Smart Cart é composta por uma ESP32-3248S035c e um leitor RFID YRM100 UHF</p>
+        </div>
+    </div>
 </body>
+
+<footer>
+    <h1>Projeto desenvolvido para a Disciplina de Oficina de Integração</h1>
+    <p>Desenvolvido por: Deborah Feijó, Felipe Sledz, Gabriel Arriello e Pedro Montano</p>
+</footer>
+
 </html>
